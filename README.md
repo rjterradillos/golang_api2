@@ -16,7 +16,9 @@ mysql -ppassword
 
 use golang_api;
 
-Debido al Automigrate configurado en gorm,se crean las tablas al inicio: show tables;
+Debido al Automigrate configurado en gorm,se crean las tablas al inicio: 
+
+show tables;
 
 Al inicio vacias:
 
@@ -28,4 +30,6 @@ localhost:8080/api/auth/register
 
 tiene validaciones, entre ellas, requiere un mail valido:
 
-{ "name":"diego", "email":"bla@bla.com", "password":"123" }
+Utilizar Postman:
+
+'{ "name":"diego", "email":"bla@bla.com", "password":"123" }' http://localhost:8080/api/auth/register
