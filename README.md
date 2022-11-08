@@ -59,5 +59,5 @@ CourseUpdateDTO struct {
 
 Utilizando basic Autenticatión (debemos usar un usuario creado previamente)
 
-Como capa de seguridad, se utiliza josn web token.
+Como capa de seguridad, se utiliza json web token.
 
