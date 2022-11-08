@@ -44,7 +44,7 @@ select * from users;
 
 Para ver cursos disponibles:
 
-Se debera realizar el request mediante el metodo POST utilziando POSTMAN a la siguiente URL:
+Se debera realizar el request mediante el metodo POST utilizando POSTMAN a la siguiente URL:
 
 http://localhost:8080/api/courses
 
